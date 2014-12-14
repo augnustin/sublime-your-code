@@ -124,9 +124,10 @@ prod run logs --tail # <=> heroku run logs --tail --app <APPNAME>
 --
 ## Enjoy Coding with Sublime
 
-You can practice by downloading this [file](practice.html)    
+You can practice by downloading this [file](https://raw.githubusercontent.com/aug-riedinger/sublime-tips/gh-pages/practice.html)    
 and apply the following changes:
 
 - Correctly indent the file
-- Change dates 2013 to 2014
+- Change every `col-sm-` classes to `col-md-`  
 - Add `target="_blank"` to every `<a>` tag
+- Add a new city after Paris, Brussels, Nancy, Beirut
