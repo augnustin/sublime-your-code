@@ -1,0 +1,1047 @@
+<html lang="fr"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>  Le Wagon - Apprendre à coder - Bootcamp en Ruby on Rails, HTML, CSS et JavaScript
+</title>
+    <meta name="description" content="  Le Wagon est la meilleure formation au développement web en France.
+Allez voir par vous-même les projets codés par nos anciens élèves !
+
+">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/rss.xml">
+
+    <link rel="stylesheet" href="http://d9sch4zul5dl8.cloudfront.net/assets/app-521a27bf1214063643c4562b240d1e5d.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <meta property="og:title" content="  Le Wagon - Apprendre à coder - Bootcamp en Ruby on Rails, HTML, CSS et JavaScript
+">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.lewagon.org/">
+    <meta property="og:image" content="http://d9sch4zul5dl8.cloudfront.net/assets/social/facebook_card-ac5bdd9ccb66bb931c1947d7a9542ed2.jpg">
+    <meta property="og:description" content="  Le Wagon est la meilleure formation au développement web en France.
+Allez voir par vous-même les projets codés par nos anciens élèves !
+
+">
+    <meta property="og:site_name" content="Le Wagon">
+    <!-- <meta property="fb:admins" content="Facebook numeric ID" /> -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Lewagonparis">
+    <meta name="twitter:title" content="  Le Wagon - Apprendre à coder - Bootcamp en Ruby on Rails, HTML, CSS et JavaScript
+">
+    <meta name="twitter:description" content="  Le Wagon est la meilleure formation au développement web en France.
+Allez voir par vous-même les projets codés par nos anciens élèves !
+
+">
+    <meta name="twitter:creator" content="@Lewagonparis">
+    <meta name="twitter:image:src" content="http://d9sch4zul5dl8.cloudfront.net/assets/social/facebook_card-ac5bdd9ccb66bb931c1947d7a9542ed2.jpg">
+
+    <meta name="google-site-verification" content="0pwqGc27XGQuNLvayBXx4avnioxPZIqkHJit-Q2Tkd0">
+
+    <link rel="icon" href="/favicon.png" type="image/png">
+  <style type="text/css"></style><script async="" defer="true" src="https://api.olark.com/2.0/sites/9893-767-10-9558/visits?_callback=_olark_callback_1418596473115&amp;_method=POST&amp;_data=%7B%22conversation_id%22%3A%22nCdOvNQVhDpUvo5T8t99E0HNFO05E3GL%22%7D"></script><script src="http://static.olark.com/jsclient-bucket6/application2.js?v=1418328748411" async="" defer="" data-cfasync="false"></script><style type="text/css">.olark-key,#hbl_code,#olark-data{display: none !important;}</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><link id="habla_style_div" type="text/css" rel="stylesheet" href="http://static.olark.com/css/6/a/6ad141665ff8b0171927ebe1b3f150ad.css?http"><style type="text/css">@media print {#habla_beta_container_do_not_rely_on_div_classes_or_names {display: none !important}}</style></head>
+  <body class="" data-twttr-rendered="true" cz-shortcut-listen="true"><div id="olark" style="display: none;"><olark><iframe frameborder="0" id="olark-loader"></iframe></olark></div>
+      <!-- Facebook SDK -->
+      <script type="text/javascript" async="" src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js"></script><script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/goal.min.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js"></script><script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '737501859652485',
+          xfbml      : true,
+          version    : 'v2.1'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Website Content -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/fr">
+        <img src="http://d9sch4zul5dl8.cloudfront.net/assets/logo-f800df98aa2605c552400667353f47d2.png" id="logo" alt="Le Wagon">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown with-underline">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programme <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class="list-divider">9-WEEK CAMP</li>
+            <li>
+              <a href="/programme">Full-Stack Bootcamp</a>
+            </li>
+            <li class="list-divider">1-WEEK KITS</li>
+            
+              
+              <li>
+                <a href="/kit/front-end-developer">Front-End developer</a>
+              </li>
+              
+            
+              
+              <li>
+                <a href="/kit/data-scientist-junior">Data Scientist junior</a>
+              </li>
+              
+            
+              
+            
+          </ul>
+        </li>
+        <li class="dropdown with-underline">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Villes <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            
+              <li>
+                <a href="/paris">Paris</a>
+              </li>
+            
+              <li>
+                <a href="/fr/brussels">Brussels</a>
+              </li>
+            
+              <li>
+                <a href="/fr/beirut">Beirut</a>
+              </li>
+            
+            <li>
+              <a href="mailto:contact@lewagon.org">
+                Monte un bootcamp dans ta ville !
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="with-underline">
+          <a href="/alumni">Projets d'élèves</a>
+        </li>
+        <li class="with-underline">
+          <a href="/blog">Blog</a>
+        </li>
+        <li class="with-underline">
+          <a href="/jobs">Jobs</a>
+        </li>
+        <li class="with-underline">
+          <a href="/faq">FAQ</a>
+        </li>
+        <li class="dropdown with-underline" id="last-link">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-globe"></i>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/en">English</a>
+            </li>
+            <li>
+              <a href="/">Français</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/postuler" class="btn btn-primary" id="nav-btn">Postuler</a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    
+<div id="banner-wrapper">
+
+  <div id="banner">
+
+      <div id="base-box">
+        <h1>APPRENEZ À CODER</h1>
+        <a href="http://fast.wistia.net/embed/iframe/9vb45twa62?videoWidth=710&amp;videoHeight=432&amp;controlsVisibleOnLoad=true&amp;autoPlay=true&amp;popover=true" class="wistia-popover[width=710,height=432,playerColor=#636155]">
+          <div id="play-button"></div>
+        </a>
+        <script charset="ISO-8859-1" src="http://fast.wistia.net/static/popover-v1.js" async=""></script>
+      </div>
+
+      <div id="nl-box">
+        <p>Soyez informé des prochaines <strong>masterclasses</strong>, recevez nos <strong>vidéos</strong> &amp; <strong>blogposts</strong> techniques.</p>
+        <form action="/subscribe" method="get" id="newsletter-form">
+  <div class="input">
+    <input type="email" placeholder="votre e-mail" name="email" class="subscribe-input" required="">
+    
+      <input type="submit" value="Suivez-nous" class="btn btn-primary blue-btn" id="Newsletter">
+    
+  </div>
+</form>
+<div id="newsletter-form-thank-you">
+  Merci, à très vite !
+</div>
+<div id="newsletter-form-error">
+  Oups, il y a un problème : ERROR_MESSAGE
+</div>
+
+        <div>
+          <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/lewagonformation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=737501859652485&amp;href=https%3A%2F%2Fwww.facebook.com%2Flewagonformation&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true"><span style="vertical-align: bottom; width: 83px; height: 20px;"><iframe name="f2cd964d38" width="1000px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/v2.1/plugins/like.php?action=like&amp;app_id=737501859652485&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df3e55d3c08%26domain%3Dwww.lewagon.org%26origin%3Dhttp%253A%252F%252Fwww.lewagon.org%252Ff338cd43b4%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2Flewagonformation&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true" style="border: none; visibility: visible; width: 83px; height: 20px;" class=""></iframe></span></div>
+          <script>
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&appId=170809313078160&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+          </script>
+          <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.93c9003dd72a6cd9f4fee1e5eb3546c1.en.html#_=1418596469341&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=Lewagonparis&amp;show_count=true&amp;show_screen_name=false&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 159px; height: 20px;"></iframe>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>2 MOIS</h2>
+      <p>Pour devenir un vrai développeur</p>
+    </div>
+    <div class="col-sm-4">
+      <h2>100%</h2>
+      <p>Des projets d'élèves concrétisés</p>
+    </div>
+    <div class="col-sm-4">
+      <h2>1200</h2>
+      <p>Codeurs formés au Wagon</p>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2><a href="/programme" class="arrow-link">Programme fullstack en détails <i class="fa fa-angle-double-right"></i></a></h2>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="container text-center media">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="col-inner-md-padded">
+        <h2 class="star-title">
+          <span>
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/star-5cdf3d31852a32ec81af7d37ef9f7042.svg" alt="star" class="inline-img">
+            Ils parlent du Wagon
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/star-5cdf3d31852a32ec81af7d37ef9f7042.svg" alt="star" class="inline-img">
+          </span>
+        </h2>
+        
+        <div class="col-md-2 col-xs-4">
+          <a href="http://techcrunch.com/2014/11/27/le-wagon-is-an-impressive-french-coding-bootcamp-for-entrepreneurs/"><img class="logo" src="http://d9sch4zul5dl8.cloudfront.net/assets/medias/logo-techcrunch-08730c39b1d8d77447838968a5ca608a.jpg" alt="Tech Crunch"></a>
+        </div>
+        
+        <div class="col-md-2 col-xs-4">
+          <a href="http://www.journaldunet.com/web-tech/start-up/le-wagon-apprentissage-code-entrepreneurs.shtml"><img class="logo" src="http://d9sch4zul5dl8.cloudfront.net/assets/medias/logo-jdn-39318b64b0c94a582a0e687a2d95700d.jpg" alt="Le Journal du net"></a>
+        </div>
+        
+        <div class="col-md-2 col-xs-4">
+          <a href="https://twitter.com/Lewagonparis/status/535370339262672897"><img class="logo" src="http://d9sch4zul5dl8.cloudfront.net/assets/medias/logo-nouvelobs-844e5d3b77faad6651d7c6e1457f33ac.jpg" alt="L'Obs"></a>
+        </div>
+        
+        <div class="col-md-2 col-xs-4">
+          <a href="http://www.rudebaguette.com/2014/02/06/frances-startup-scene-tackles-question-can-teach-someone-entrepreneur/"><img class="logo" src="http://d9sch4zul5dl8.cloudfront.net/assets/medias/logo-rudebaguette-e7bcc60ebf7bde7fe345aed5ba73d30c.jpg" alt="Rude Baguette"></a>
+        </div>
+        
+        <div class="col-md-2 col-xs-4">
+          <a href="http://www.maddyness.com/startup/2014/02/03/startup-le-wagon-developpeur/"><img class="logo" src="http://d9sch4zul5dl8.cloudfront.net/assets/medias/logo-madyness-dda8815ef31f8f9d0695f06d4dfd4c49.jpg" alt="Madyness"></a>
+        </div>
+        
+        <div class="col-md-2 col-xs-4">
+          <a href="http://businessofeminin.com/coder-sur-le-web-une-nouvelle-affaire-de-femmes/"><img class="logo" src="http://d9sch4zul5dl8.cloudfront.net/assets/medias/logo-businessfeminin-b42a483d19c1d62cab3a13d77ac98ce4.jpg" alt="Business au Féminin"></a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="container text-center">
+  <div class="row text-center" id="alumni">
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="testimonial">
+      <p>
+        <strong class="grey">"</strong>
+        En sortant du Wagon, on a développé
+l'appli Fizzer en dix jours. Le  Wagon nous a fait gagner deux ans
+en nous plongeant dans une communauté d'entrepreneurs-développeurs ultra-compétents.
+Merci !
+
+        <strong class="grey">"</strong>
+      </p>
+      <p class="signature">
+        <span class="red">–</span> Vincent &amp; Baptiste
+      </p>
+      <div class="workfor">
+        <span class="grey">fondateur de </span> <a href="https://www.fizzer.fr/"><img src="http://d9sch4zul5dl8.cloudfront.net/assets/logos/fizzer-aaaa3cb13a89d78f71c05b8e125c1276.png" alt="Fizzer"></a>
+      </div>
+    </div>
+    <a href="http://www.entreprises.ouest-france.fr/article/caen-fizzer-carte-postale-portee-smartphone-15-07-2014-153533">
+      <img src="http://d9sch4zul5dl8.cloudfront.net/assets/alumni/fizzer-guys-3dbf9717e6405d74e18f6a6fa6525bef.png" alt="fizzer guys" class="img-circle circle">
+    </a>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="testimonial">
+      <p>
+        <strong class="grey">"</strong>
+        Après deux ans chez Rocket-Internet,
+j'ai intégré la promo 1 pour maîtriser la technique et développer
+l'API de Kudoz. Aujourd'hui, je me concentre sur le développement.
+On vient même d'embaucher un élève de la saison 2 !
+
+        <strong class="grey">"</strong>
+      </p>
+      <p class="signature">
+        <span class="red">–</span> Olivier Xu
+      </p>
+      <div class="workfor">
+        <span class="grey">fondateur de </span> <a href="http://www.getkudoz.com/"><img src="http://d9sch4zul5dl8.cloudfront.net/assets/logos/kudoz-75d42130820ce5d2eaa5f1751c863fdf.png" alt="Kudoz" class="workfor"></a>
+      </div>
+    </div>
+    <a href="http://fr.linkedin.com/in/olivierxu">
+      <img src="http://d9sch4zul5dl8.cloudfront.net/assets/alumni/olivier-046a36f346f2c3a18c38c09c654af3f6.png" alt="Olivier Xu" class="circle">
+    </a>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="testimonial">
+      <p>
+        <strong class="grey">"</strong>
+        Le Wagon a accéléré ma transition vers le métier qui me passionne vraiment.
+Sorti d'une école de commerce, je suis maintenant développeur junior
+chez weroom dans un cadre super stimulant où je continue
+a apprendre tous les jours.
+
+        <strong class="grey">"</strong>
+      </p>
+      <p class="signature">
+        <span class="red">–</span> Sebastien Ferré
+      </p>
+      <div class="workfor">
+        <span class="grey">travaille chez</span> <a href="http://www.finexkap.com/"><img src="http://d9sch4zul5dl8.cloudfront.net/assets/logos/finexkap-fee6020cbcf50e94d314f900468d3b95.png" alt="Finexkap" class="workfor" style="height: 30px"></a>
+      </div>
+    </div>
+    <a href="http://sebastien.ferre.io/">
+      <img src="http://d9sch4zul5dl8.cloudfront.net/assets/alumni/seb-9c4db53d826f75ad9bf81fa7ad06c6ca.png" alt="Sebastien Ferre" class="circle">
+    </a>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="testimonial">
+      <p>
+        <strong class="grey">"</strong>
+        Le wagon à été pour moi le moyen de concrétiser mon projet,
+trouver un associé et mettre enfin les mains dans les problématiques web !
+C'est vraiment un réél plus pour mon <em>nouveau</em> travail de tous les jours.
+
+        <strong class="grey">"</strong>
+      </p>
+      <p class="signature">
+        <span class="red">–</span> Vincent Simon
+      </p>
+      <div class="workfor">
+        <span class="grey">travaille chez</span> <a href="http://www.fifty-five.com/"><img src="http://d9sch4zul5dl8.cloudfront.net/assets/logos/fifty-five-8c077efba5d46d2fa11faf943aa7cdb7.png" alt="Fifty-Five" class="workfor"></a>
+      </div>
+    </div>
+    <a href="http://fr.linkedin.com/pub/vincent-simon/72/282/ba1">
+      <img src="http://d9sch4zul5dl8.cloudfront.net/assets/alumni/vincentsimon-6fbc65f96e0ae793ba05d37ce524dfdd.jpg" alt="Vincent Simon" class="circle">
+    </a>
+  </div>
+</div>
+
+  <div class="vertical-spacer"></div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2><a href="/alumni" class="arrow-link">Voir les projets <i class="fa fa-angle-double-right"></i></a></h2>
+    </div>
+  </div>
+</div>
+
+<a name="technical-kits"></a>
+
+<div class="vertical-spacer"></div>
+
+<div id="boosters">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+        <h2>TECHNICAL KITS</h2>
+        <p class="pitch">Les kits sont des programmes d'accélération technique d'<strong>une semaine</strong>
+sur des thématiques précises (<strong>webdesign</strong>,
+<strong>data science</strong>, <strong>développement iOS</strong>). Certains d'entre
+eux nécessitent des pré-requis techniques.
+</p>
+        <div class="vertical-spacer"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      
+            <div class="col-xs-12 col-md-4 text-center">
+  <div class="panel-booster">
+    <!-- 3D ribbon for 1st offer -->
+    
+      <div class="ribbon ribbon-red">
+        <div class="banner">
+            <div class="text">plus que 6 places</div>
+        </div>
+      </div>
+    
+    <div class="round-icon yellow1 brandon-medium">
+      FRONT-END <br> DEVELOPER
+    </div>
+    <ul>
+      <li><strong>Ergonomie</strong>, <strong>UI</strong> &amp; <strong>design</strong> web</li>
+      <li><strong>HTML</strong>, <strong>CSS</strong>, <strong>jQuery</strong> &amp; <strong>Bootstrap</strong></li>
+      <li>Integration d'<strong>APIs</strong> (Wufoo, Mailchimp, Gmaps, Trello..)</li>
+    </ul>
+    <p><strong>débutant</strong></p>
+
+    
+      <a href="/kit/front-end-developer" class="btn btn-default yellow">
+        plus de détails
+      </a>
+      <!--span to make panel clickable-->
+      <a href="/kit/front-end-developer"><span class="click-panel"></span></a>
+    
+  </div>
+</div>
+
+<!-- Booster Modal -->
+<div class="modal fade" id="front-end-developer-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <h3 class="modal-title" id="myModalLabel">
+          Pré-inscription "Front-End developer"
+        </h3>
+        <p>Le programme est <strong>limité à 10 inscrits</strong>.</p>
+      </div>
+      <div class="modal-body text-left" style="padding-top: 30px;padding-bottom: 50px;">
+        <!-- TODO: link the form to Trello -->
+        <form action="/booster_apply" method="post" role="form">
+  
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="first_name">Prénom</label>
+        <input class="form-control" type="text" name="first_name" id="first_name" placeholder="John" value="" required="">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="last_name">Nom</label>
+        <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Doe" value="" required="">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" value="" required="">
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="email">Téléphone</label>
+        <input class="form-control" type="tel" name="phone" id="phone" placeholder="+33123456789" value="" required="">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input class="form-control" type="text" name="age" id="age" placeholder="42" value="" required="">
+      </div>
+    </div>
+  </div>
+
+  
+    <input type="hidden" name="booster" value="front-end-developer">
+  
+
+  
+
+  <div class="form-group">
+    <label for="motivation">Qu'attendez-vous de ce Kit?</label>
+    <textarea class="form-control" name="motivation" id="motivation" rows="4" required=""></textarea>
+  </div>
+
+  <div class="form-group">
+    <span class="help-block">
+      
+        Prix : <strong>1290</strong> € TTC. Nous vous recontacterons rapidement par email !
+      
+    </span>
+  </div>
+
+  <button class="btn btn-primary red-btn" style="width: 100%">
+    Prévenez-mois quand ça ouvre !
+  </button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+      
+            <div class="col-xs-12 col-md-4 text-center">
+  <div class="panel-booster">
+    <!-- 3D ribbon for 1st offer -->
+    
+    <div class="round-icon yellow2 brandon-medium">
+      DATA <br> SCIENTIST
+    </div>
+    <ul>
+      <li>Récolter ses données (<strong>API, scraping</strong>)</li>
+      <li>Les traiter avec <strong>Python Pandas</strong></li>
+      <li>Visualiser avec <strong>d3.js</strong> &amp; tirer des enseignements</li>
+    </ul>
+    <p><strong>intermédiaire</strong></p>
+
+    
+      <a href="/kit/data-scientist-junior" class="btn btn-default yellow">
+        plus de détails
+      </a>
+      <!--span to make panel clickable-->
+      <a href="/kit/data-scientist-junior"><span class="click-panel"></span></a>
+    
+  </div>
+</div>
+
+<!-- Booster Modal -->
+<div class="modal fade" id="data-scientist-junior-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <h3 class="modal-title" id="myModalLabel">
+          Pré-inscription "Data Scientist junior"
+        </h3>
+        <p>Le programme est <strong>limité à 10 inscrits</strong>.</p>
+      </div>
+      <div class="modal-body text-left" style="padding-top: 30px;padding-bottom: 50px;">
+        <!-- TODO: link the form to Trello -->
+        <form action="/booster_apply" method="post" role="form">
+  
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="first_name">Prénom</label>
+        <input class="form-control" type="text" name="first_name" id="first_name" placeholder="John" value="" required="">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="last_name">Nom</label>
+        <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Doe" value="" required="">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" value="" required="">
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="email">Téléphone</label>
+        <input class="form-control" type="tel" name="phone" id="phone" placeholder="+33123456789" value="" required="">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input class="form-control" type="text" name="age" id="age" placeholder="42" value="" required="">
+      </div>
+    </div>
+  </div>
+
+  
+    <input type="hidden" name="booster" value="data-scientist-junior">
+  
+
+  
+    
+      <div class="form-group">
+        <label for="additional_question_0">Quel est votre niveau en Python ?</label>
+        <input type="hidden" name="additional_questions[0][question]" value="Quel est votre niveau en Python ?">
+        
+          <select class="form-control" name="additional_questions[0][answer]" id="additional_question_0">
+          
+            <option>Débutant</option>
+          
+            <option>intermédiaire (codecademy en Python)</option>
+          
+            <option>Avancé</option>
+          
+          </select>
+        
+      </div>
+    
+      <div class="form-group">
+        <label for="additional_question_1">Avez-vous déjà suivi une formation data ?</label>
+        <input type="hidden" name="additional_questions[1][question]" value="Avez-vous déjà suivi une formation data ?">
+        
+          <select class="form-control" name="additional_questions[1][answer]" id="additional_question_1">
+          
+            <option>Oui</option>
+          
+            <option>Non</option>
+          
+          </select>
+        
+      </div>
+    
+  
+
+  <div class="form-group">
+    <label for="motivation">Qu'attendez-vous de ce Kit?</label>
+    <textarea class="form-control" name="motivation" id="motivation" rows="4" required=""></textarea>
+  </div>
+
+  <div class="form-group">
+    <span class="help-block">
+      
+        Prix : <strong>1290</strong> € TTC. Nous vous recontacterons rapidement par email !
+      
+    </span>
+  </div>
+
+  <button class="btn btn-primary red-btn" style="width: 100%">
+    Prévenez-mois quand ça ouvre !
+  </button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+      
+            <div class="col-xs-12 col-md-4 text-center">
+  <div class="panel-booster">
+    <!-- 3D ribbon for 1st offer -->
+    
+    <div class="round-icon yellow3 brandon-medium">
+      iOS <br> DEVELOPER
+    </div>
+    <ul>
+      <li><strong>UI</strong> &amp; <strong>ergonomie</strong> mobile</li>
+      <li>Programmation <strong>Swift</strong></li>
+      <li>Gestion du backend, fonctionnalités mobiles (géoloc, push, photo..)</li>
+    </ul>
+    <p><strong>bases en programmation</strong></p>
+
+    
+      <a data-target="#ios-developer-modal" data-toggle="modal" class="btn btn-default white">
+        je suis intéressé
+      </a>
+      <!--span to make panel clickable-->
+      <a data-target="#ios-developer-modal" data-toggle="modal"><span class="click-panel"></span></a>
+    
+  </div>
+</div>
+
+<!-- Booster Modal -->
+<div class="modal fade" id="ios-developer-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <h3 class="modal-title" id="myModalLabel">
+          Pré-inscription "iOS developer"
+        </h3>
+        <p>Le programme est <strong>limité à 10 inscrits</strong>.</p>
+      </div>
+      <div class="modal-body text-left" style="padding-top: 30px;padding-bottom: 50px;">
+        <!-- TODO: link the form to Trello -->
+        <form action="/booster_apply" method="post" role="form">
+  
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="first_name">Prénom</label>
+        <input class="form-control" type="text" name="first_name" id="first_name" placeholder="John" value="" required="">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="last_name">Nom</label>
+        <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Doe" value="" required="">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" value="" required="">
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="email">Téléphone</label>
+        <input class="form-control" type="tel" name="phone" id="phone" placeholder="+33123456789" value="" required="">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input class="form-control" type="text" name="age" id="age" placeholder="42" value="" required="">
+      </div>
+    </div>
+  </div>
+
+  
+    <input type="hidden" name="booster" value="ios-developer">
+  
+
+  
+    
+      <div class="form-group">
+        <label for="additional_question_0">Un pré-requis pour ce programme est de connaître la programmation orientée objet. Est-ce le cas ?</label>
+        <input type="hidden" name="additional_questions[0][question]" value="Un pré-requis pour ce programme est de connaître la programmation orientée objet. Est-ce le cas ?">
+        
+          <select class="form-control" name="additional_questions[0][answer]" id="additional_question_0">
+          
+            <option>Oui</option>
+          
+            <option>Non</option>
+          
+          </select>
+        
+      </div>
+    
+      <div class="form-group">
+        <label for="additional_question_1">Dans quel langage avez-vous déjà développé ?</label>
+        <input type="hidden" name="additional_questions[1][question]" value="Dans quel langage avez-vous déjà développé ?">
+        
+          <textarea class="form-control" name="additional_questions[1][answer]" id="additional_question_1" rows="4" required=""></textarea>
+        
+      </div>
+    
+  
+
+  <div class="form-group">
+    <label for="motivation">Qu'attendez-vous de ce Kit?</label>
+    <textarea class="form-control" name="motivation" id="motivation" rows="4" required=""></textarea>
+  </div>
+
+  <div class="form-group">
+    <span class="help-block">
+      
+        Prix : <strong>1490</strong> € TTC. Nous vous recontacterons rapidement par email !
+      
+    </span>
+  </div>
+
+  <button class="btn btn-primary red-btn" style="width: 100%">
+    Prévenez-mois quand ça ouvre !
+  </button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="container">
+  <div class="row" id="cursus">
+
+    <div class="col-sm-6">
+      <div class="col-inner-md-padded">
+        <h2 class="star-title">
+          <span>
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/star-5cdf3d31852a32ec81af7d37ef9f7042.svg" alt="star" class="inline-img">
+            <span>LE WAGON</span>
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/star-5cdf3d31852a32ec81af7d37ef9f7042.svg" alt="star">
+          </span>
+        </h2>
+
+        <p class="text-justify">Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant
+tous les jours de nouveaux produits. La formation a parfois un wagon de retard...
+Les jeunes diplômés, ayant pourtant une vraie soif d'apprendre, n'ont pas toujours le bagage
+technique suffisant pour intéresser des recruteurs ou se lancer sur des projets personnels.
+</p>
+        <p class="text-justify">A travers des formations complémentaires en programmation web,
+allant du cours d'initiation au programme immersif de 2 mois,
+le wagon veut permettre à ces jeunes talents de devenir des acteurs de l'innovation.
+</p>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="col-inner-md-padded">
+        <h2 class="star-title">
+          <span>
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/star-5cdf3d31852a32ec81af7d37ef9f7042.svg" alt="star" class="inline-img">
+            NOUS ENSEIGNONS
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/star-5cdf3d31852a32ec81af7d37ef9f7042.svg" alt="star">
+          </span>
+        </h2>
+
+        <div class="row">
+          <div class="col-sm-3 hidden-xs text-center">
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/html-c4d31d05d315f170ef61c08a35ee5422.png" class="techno" alt="HTML5">
+          </div>
+          <div class="col-sm-9">
+            L'algorithmique dans le langage ruby &amp; les techniques de growth hacking
+(<strong>scraping</strong>, interrogation d'<strong>APIs</strong>). Nous appliquons
+de manière pragmatique le code aux problèmes des entrepreneurs.
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 hidden-xs text-center">
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/ruby-06a7a6849fd63b26b0720bd6dc5c2397.png" class="techno" alt="Ruby on Rails">
+          </div>
+          <div class="col-sm-9">
+            Les concepts objet et les <i>design patterns</i> classiques
+(<strong>MVC</strong>, <strong>Page-Controller</strong>), notions-clefs
+pour prendre en main n'importe quel nouveau framework web. <strong>Ruby on Rails</strong>
+nous permet de prototyper très vite n'importe quelle idée.
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 hidden-xs text-center">
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/js-a8cd6653a5e2b520c25be06c737f1fae.png" class="techno" alt="JavaScript">
+          </div>
+          <div class="col-sm-9">
+            La modélisation de bases de données SQL, l'intégration de
+librairies <strong>open-source</strong> (<i>fileupload</i>, géolocalisation,
+authentification, paiement, Oauth, etc.) et la programmation côté navigateur avec
+<strong>JavaScript</strong> et <strong>AJAX</strong>.
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 hidden-xs text-center">
+            <img src="http://d9sch4zul5dl8.cloudfront.net/assets/icons/git-c18e71db80dc599c505856f13935db13.png" class="techno" alt="Git &amp; GitHub">
+          </div>
+          <div class="col-sm-9">
+            Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="vertical-spacer"></div>
+
+
+<!-- TODO:
+<!-- <div id="meetus" class="center">
+  <h2>MEET LE WAGON</h2>
+</div> -->
+
+
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h4>Le Wagon</h4>
+        <ul class="list-unstyled">
+          <!-- <li><a href="/staff">Staff</a></li> -->
+          <li><a href="/postuler">Postuler</a></li>
+          <li><a href="/presse">Presse</a></li>
+          <li><a href="/jobs">Jobs</a></li>
+          <li><a href="mailto:contact@lewagon.org">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h4>Villes</h4>
+        <ul class="list-unstyled">
+          
+            <li>
+              <a href="/paris">Paris</a>
+            </li>
+          
+            <li>
+              <a href="/brussels">Brussels</a>
+            </li>
+          
+            <li>
+              <a href="/nancy">Nancy</a>
+            </li>
+          
+            <li>
+              <a href="/beirut">Beirut</a>
+            </li>
+          
+          <!-- <li><a href="http://surfcamp.lewagon.org">Soustons</a></li> -->
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h4>Langue</h4>
+        <ul class="list-unstyled">
+          <li>
+            <a href="/en">English</a>
+          </li>
+          <li>
+            <a href="/">Français</a>
+          </li>
+        </ul>
+
+        
+
+      </div>
+      <div class="col-sm-3">
+        <ul class="list-inline social text-center">
+          <li>
+            <a href="https://twitter.com/lewagonparis">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com/lewagonformation">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/lewagon">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UChCDYcBCrb8tuPAO6e0P-Hw">
+              <i class="fa fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Twitter widgets -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-39720822-1', 'lewagon.org');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Mailchimp Tracking -->
+    <script type="text/javascript">
+      var $mcGoal = {'settings':{'uuid':'1a8343824ef6660eaf45a4ab9','dc':'us7'}};
+      (function() {
+         var sp = document.createElement('script'); sp.type = 'text/javascript';
+        sp.src = 'https://s3.amazonaws.com/downloads.mailchimp.com/js/goal.min.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(sp, s);
+      })();
+    </script>
+    <!-- End Mailchimp Tracking -->
+
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+      for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+      mixpanel.init("d6ebe82547b18c335122656ad5df6c0e");
+    </script>
+    <!-- end Mixpanel -->
+
+
+    <script src="http://d9sch4zul5dl8.cloudfront.net/assets/app-1597746a23ae25b5336b91c7b82b33d7.js"></script>
+
+    
+
+    <!-- begin olark code -->
+<script data-cfasync="false" type="text/javascript">/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('9893-767-10-9558');/*]]>*/</script><noscript>&lt;a href="https://www.olark.com/site/9893-767-10-9558/contact" title="Contact us" target="_blank"&gt;Questions? Feedback?&lt;/a&gt; powered by &lt;a href="http://www.olark.com?welcome" title="Olark live chat software"&gt;Olark live chat software&lt;/a&gt;</noscript>
+<!-- end olark code -->
+
+<script type="text/javascript">
+  
+</script>
+  
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f338cd43b4&amp;origin=http%3A%2F%2Fwww.lewagon.org" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f338cd43b4&amp;origin=http%3A%2F%2Fwww.lewagon.org" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div><link rel="stylesheet" id="wistia_popover_css" href="http://fast.wistia.net/assets/stylesheets/jquery.fancybox.css?t=20121119"><span style="display: none;"><iframe style="display: none !important" id="_olark_framesocket14672" src="https://static.olark.com/jsclient-bucket6/storage.html?v=1418328748411#TK2569956516381353" onload="try{window._olark_framesocket14672()}catch(e){_olark_framesocket14672()}"></iframe></span><div id="habla_beta_container_do_not_rely_on_div_classes_or_names" class="habla-browser-chrome habla-desktop olrk-noquirks"><div id="hbl_operator_state_div" class="olrk-away"><div id="hbl_region" class="olrk-normal"><div id="habla_window_state_div" class=" olrk-state-compressed"><div id="habla_window_div" style="margin: 0px 20px; bottom: 0px; right: 0px; display: none; position: fixed;" class="habla_window_div_base hbl_pal_main_width olrk-fixed-bottom olrk-fixed-right "><div id="habla_compressed_div" style="display: block;"></div><div id="habla_panel_div" class="habla_panel_border hbl_pal_main_bg hbl_pal_panel_border hbl_pal_main_font_family hbl_pal_main_font_size " style="display: block;"><div id="habla_both_div" style="display: block;"><div id="habla_topbar_div" class="habla_topbar_div_normal hbl_pal_title_fg hbl_pal_title_bg habla_topbar_div_compressed "><a id="habla_sizebutton_a" class="habla_button habla_button_a_normal hbl_pal_header_font_size hbl_pal_main_font_family hbl_pal_button_bg hbl_pal_button_fg ">^</a><a id="habla_oplink_a" class="habla_oplink_a_normal hbl_pal_header_font_size hbl_pal_title_fg ">Contactez-nous</a></div></div><div id="habla_expanded_div" style="display: none;"><div id="habla_middle_div"><div id="habla_middle_wrapper_div"><div id="habla_conversation_div" class="hbl_panel habla_conversation_div hbl_pal_main_height hbl_pal_control_border hbl_pal_main_fg hbl_pal_main_bg  habla_conversation_message_off " style="height: 150px; overflow: hidden; display: none;"></div><div id="habla_offline_message_sent_div" class="hbl_panel habla_offline_message_sent_div hbl_pal_main_height hbl_pal_control_border hbl_pal_main_fg " style="display: none;">Merci pour votre message ! Nous vous recontactons rapidement.</div><div id="habla_offline_message_div" class="hbl_panel habla_offline_message_div hbl_pal_control_border hbl_pal_main_fg " style="display: block;"><span id="habla_offline_message_span"> </span><div class="hbl_txt_wrapper"><textarea id="habla_name_input" name="habla_name_input" class="habla_wcsend_field habla_wcsend_input_pre habla_wcsend_input_normal hbl_pal_input_pre_fg hbl_pal_main_font_family hbl_pal_input_font_size hbl_pal_control_border " placeholder="Votre nom ?" style="height: 20px; display: block;"></textarea></div><div class="hbl_txt_wrapper"><textarea id="habla_offline_email_input" name="habla_offline_email_input" class="habla_wcsend_field habla_wcsend_input_pre habla_wcsend_input_normal hbl_pal_input_pre_fg hbl_pal_main_font_family hbl_pal_input_font_size hbl_pal_control_border " placeholder="Votre email ?" style="height: 20px; display: block;"></textarea></div><div class="hbl_txt_wrapper"><textarea id="habla_offline_body_input" name="habla_offline_body_input" class="habla_wcsend_field habla_wcsend_input_pre habla_wcsend_input_normal hbl_pal_input_pre_fg hbl_pal_main_font_family hbl_pal_input_font_size hbl_pal_control_border " placeholder="Aucun professeur pour vous répondre actuellement, on vous recontacte par mail." style="height: 65px; display: block;"></textarea></div><span id="habla_offline_error_span" class="habla_offline_error_span "></span><input id="habla_offline_submit_input" name="habla_offline_submit_input" type="submit" class="habla_offline_submit_input hbl_pal_offline_submit_fg hbl_pal_control_border hbl_pal_offline_submit_bg " value="Envoyer" style="display: block;"><div id="habla_offline_clear_div" class="clear_style "></div></div><div id="habla_pre_chat_div" class="hbl_panel habla_pre_chat_div hbl_pal_main_height hbl_pal_main_fg " style="display: none; height: 150px;"><span id="habla_pre_chat_span">Hi, I am around, click 'start chatting' to contact me.</span><div class="hbl_txt_wrapper"><textarea id="habla_pre_chat_name_input" name="habla_pre_chat_name_input" class="habla_wcsend_field habla_wcsend_input_pre habla_wcsend_input_normal hbl_pal_input_pre_fg hbl_pal_main_font_family hbl_pal_input_font_size hbl_pal_control_border " placeholder="Votre nom ?" style="height: 20px; line-height: 20px;"></textarea></div><div class="hbl_txt_wrapper"><textarea id="habla_pre_chat_email_input" name="habla_pre_chat_email_input" class="habla_wcsend_field habla_wcsend_input_pre habla_wcsend_input_normal hbl_pal_input_pre_fg hbl_pal_main_font_family hbl_pal_input_font_size hbl_pal_control_border " placeholder="Votre email ?" style="height: 20px; line-height: 20px;"></textarea></div><div class="hbl_txt_wrapper" style="display: none;"><textarea id="habla_pre_chat_phone_input" name="habla_pre_chat_phone_input" class="habla_wcsend_field habla_wcsend_input_pre habla_wcsend_input_normal hbl_pal_input_pre_fg hbl_pal_main_font_family hbl_pal_input_font_size hbl_pal_control_border " placeholder="Votre téléphone ?" style="height: 20px; line-height: 20px; display: none;"></textarea></div><span id="habla_pre_chat_error_span"></span><input id="habla_pre_chat_submit_input" name="habla_pre_chat_submit_input" type="submit" class="habla_pre_chat_form_field habla_offline_submit_input hbl_pal_offline_submit_fg hbl_pal_control_border hbl_pal_offline_submit_bg " value="Click here to start chatting"><div id="habla_pre_chat_clear_div" class="clear_style "></div></div></div><form id="habla_chatform_form" action="#" method="GET" autocomplete="off" class="habla_chatform_form " style="display: none;"><div id="habla_input_div" class="habla_input_div "><div class="hbl_txt_wrapper"><textarea id="habla_wcsend_input" name="habla_wcsend_input" size="undefined" class="habla_wcsend_field habla_wcsend_input_pre habla_wcsend_input_normal hbl_pal_input_pre_fg hbl_pal_main_font_family hbl_pal_input_font_size hbl_pal_control_border " placeholder="Ecrivez ici et appuyer sur Entrée" disabled="" style="line-height: 20px; height: 20px; display: none;"></textarea></div></div></form></div><div style="font-family: helvetica, sans-serif; text-align: center; text-transform: uppercase; font-size: 9px; letter-spacing: 2px; font-weight: bold; padding: 3px 0px 5px !important; color: rgb(170, 170, 170) !important; clear: both;"><span style="display:none"><a id="hblink9" style="font-family: helvetica, sans-serif; text-transform: uppercase; font-size: 9px !important; letter-spacing: 2px; font-weight: bold; color: #e75917 !important;"></a>http://www.olark.com</span>Powered By <a style="font-family: helvetica, sans-serif; text-transform: uppercase; font-size: 9px !important; letter-spacing: 2px; font-weight: bold; color: #e75917 !important;" href="http://www.olark.com/welcome/?rid=9893-767-10-9558&amp;rid=9893-767-10-9558&amp;utm_medium=widget&amp;utm_campaign=powered_by&amp;utm_source=9893-767-10-9558" id="hblink99" target="_blank" rel="nofollow">Olark</a></div></div></div><div id="habla_closed_div" style="display: none;"></div></div></div></div></div></div></body></html>
