@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+    Sublime your code
+  </title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="/assets/reveal.css">
+  <link rel="stylesheet" href="/assets/custom-styles.css">
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = '/assets/reveal_print-8726d532eda5e37fe251040f3ced925a.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+
+    var links = document.links;
+
+    for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+     if (links[i].hostname != window.location.hostname) {
+       links[i].target = '_blank';
+     } 
+   }
+   
+ </script>
+</head>
+<body>
+  <div class="print">
+    <a href="/lectures/ruby/01-programming-basics/?print-pdf">PDF-friendly</a>
+  </div>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="presentation.md" data-separator="^---$" data-vertical="^--$" data-notes="^Note:">
+      </section>
+    </div>
+  </div>
+  <script src="/assets/reveal.js"></script>
+  <script>
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      width: '80%',
+      height: 800,
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      slideNumber: true,
+      parallaxBackgroundImage: '/assets/20121122135300!Sublime-text-2-screenshot.png',
+      parallaxBackgroundSize: '100% 100%',
+      
+    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition: 'linear',  // default/cube/page/concave/zoom/linear/fade/none
+    dependencies: [
+    { src: '/assets/highlightjs/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+    ]
+  });
+  </script>
+</body>
+</html>
