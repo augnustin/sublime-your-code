@@ -3,8 +3,10 @@
 # Sublime 
 # your code
 
-Presentation available at    
-[http://aug-riedinger.github.io/sublime-tips](http://aug-riedinger.github.io/sublime-tips)
+<small>By [Augustin Riedinger](http://augustin-riedinger.fr) for [Le Wagon](http://lewagon.org/)    
+Available at
+[http://aug-riedinger.github.io/sublime-your-code](git@github.com:aug-riedinger/sublime-your-code.git)    
+</small>
 --
 ## Access your code
 

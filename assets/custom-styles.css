@@ -59,6 +59,8 @@
   background-color: #49483e;
   padding: 0px 9px 2px 9px;
   border-radius: 3px;
+  font-family: "Source Code Pro", "Lato", sans-serif;
+  letter-spacing: 0;
 }
 
 .reveal table {
@@ -83,4 +85,12 @@
 
 .reveal ul {
   list-style: square;
+}
+
+.reveal .controls {
+  bottom: 20px;
+}
+.reveal .slide-number {
+  bottom: 25px;
+  right: 25px;
 }
