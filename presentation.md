@@ -23,10 +23,10 @@ Presentation available at
 |:----------------------------------:|:--------------------------------:|:-----------------------------:|
 |     Access line number             | ![Ctrl](./assets/keyboard/ctrl.png) + ![G](./assets/keyboard/g.png) | ![Ctrl](./assets/keyboard/ctrl.png) + ![G](./assets/keyboard/g.png)       |
 |     Access symbol                  |            ![Ctrl](./assets/keyboard/ctrl.png) + ![R](./assets/keyboard/r.png)            |       ![Cmd](./assets/keyboard/cmd.png) + ![R](./assets/keyboard/r.png)       |
-|     Move to next word *             | ![Ctrl](./assets/keyboard/ctrl.png) + ![Right](./assets/keyboard/cursor-right.png) | ![Cmd](./assets/keyboard/cmd.png) + ![Right](./assets/keyboard/cursor-right.png)       |
-|     Move to previous word *             | ![Ctrl](./assets/keyboard/ctrl.png) + ![Left](./assets/keyboard/cursor-left.png) | ![Cmd](./assets/keyboard/cmd.png) + ![Left](./assets/keyboard/cursor-left.png)       |
-|     Move to end of line *             | ![Ctrl](./assets/keyboard/ctrl.png) + ![End](./assets/keyboard/end.png) | ![Cmd](./assets/keyboard/cmd.png) + ![End](./assets/keyboard/end.png)       |
-|     Move to beginning of line *             | ![Ctrl](./assets/keyboard/ctrl.png) + ![Home](./assets/keyboard/home.png) | ![Cmd](./assets/keyboard/cmd.png) + ![Home](./assets/keyboard/home.png)       |
+|     Move to next word *             | ![Ctrl](./assets/keyboard/ctrl.png) + ![Right](./assets/keyboard/cursor-right.png) | ![Alt](./assets/keyboard/alt.png) + ![Right](./assets/keyboard/cursor-right.png)       |
+|     Move to previous word *             | ![Ctrl](./assets/keyboard/ctrl.png) + ![Left](./assets/keyboard/cursor-left.png) | ![Alt](./assets/keyboard/alt.png) + ![Left](./assets/keyboard/cursor-left.png)       |
+|     Move to end of line *             | ![Ctrl](./assets/keyboard/ctrl.png) + ![End](./assets/keyboard/end.png) | ![Alt](./assets/keyboard/alt.png) + ![End](./assets/keyboard/end.png)       |
+|     Move to beginning of line *             | ![Ctrl](./assets/keyboard/ctrl.png) + ![Home](./assets/keyboard/home.png) | ![Alt](./assets/keyboard/alt.png) + ![Home](./assets/keyboard/home.png)       |
 
 > \* Press ![Shift](./assets/keyboard/shift.png) to keep selection 
 
@@ -40,7 +40,7 @@ Presentation available at
 | Move down line |  ![Ctrl](./assets/keyboard/ctrl.png) + ![Shift](./assets/keyboard/shift.png) + ![Down](./assets/keyboard/cursor-down.png)  | ![Ctrl](./assets/keyboard/ctrl.png) + ![Cmd](./assets/keyboard/cmd.png) + ![Down](./assets/keyboard/cursor-down.png) |
 |  Move right  |          ![Tab](./assets/keyboard/tab.png)         |         ![Tab](./assets/keyboard/tab.png)        |
 |  Move left  |          ![Shift](./assets/keyboard/shift.png)+![Tab](./assets/keyboard/tab.png)         |         ![Shift](./assets/keyboard/shift.png)+![Tab](./assets/keyboard/tab.png)        |
-|   Comment/Uncomment a line  |        ![Ctrl](./assets/keyboard/ctrl.png) + ![Shift](./assets/keyboard/shift.png) + ![Slash](./assets/keyboard/keypad-slash.png)        |       ![Cmd](./assets/keyboard/cmd.png) + ![Slash](./assets/keyboard/keypad-slash.png)       |
+|   Comment/Uncomment a line  |        ![Ctrl](./assets/keyboard/ctrl.png) + ![Shift](./assets/keyboard/shift.png) + ![Slash](./assets/keyboard/keypad-slash.png)        |       ![Cmd](./assets/keyboard/cmd.png)  + ![Shift](./assets/keyboard/shift.png) + ![Slash](./assets/keyboard/keypad-slash.png)       |
 
 > You barely never need multiple-line comments
 
@@ -52,7 +52,7 @@ Presentation available at
 |     Create multiple cursor     |          ![Ctrl](./assets/keyboard/ctrl.png) + Click          |         ![Cmd](./assets/keyboard/cmd.png) + Click        |
 |   Select multiple occurrences  |            ![Ctrl](./assets/keyboard/ctrl.png) + ![D](./assets/keyboard/d.png)            |           ![Cmd](./assets/keyboard/cmd.png) + ![D](./assets/keyboard/d.png)          |
 |      Undo select operation     |            ![Ctrl](./assets/keyboard/ctrl.png) + ![U](./assets/keyboard/u.png)            |    ![Cmd](./assets/keyboard/cmd.png) + ![U](./assets/keyboard/u.png)                           |
-| Break line in multiple cursors |            ![Ctrl](./assets/keyboard/ctrl.png) + ![L](./assets/keyboard/l.png)            |           ![Cmd](./assets/keyboard/cmd.png) + ![L](./assets/keyboard/l.png)          |
+| Select the whole line |            ![Ctrl](./assets/keyboard/ctrl.png) + ![L](./assets/keyboard/l.png)            |           ![Cmd](./assets/keyboard/cmd.png) + ![L](./assets/keyboard/l.png)          |
 | Break line in multiple cursors |        ![Ctrl](./assets/keyboard/ctrl.png) + ![Shift](./assets/keyboard/shift.png) + ![L](./assets/keyboard/l.png)        |       ![Cmd](./assets/keyboard/cmd.png) + ![Shift](./assets/keyboard/shift.png) + ![L](./assets/keyboard/l.png)      |
 
 --
